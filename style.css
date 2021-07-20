@@ -16,3 +16,7 @@ body {
   /* Preents scrollbar from showing by default */
   overflow: hidden;
 }
+
+.logo {
+  width: 150px;
+}
