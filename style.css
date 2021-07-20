@@ -54,11 +54,23 @@ body {
   width: 60%;
   max-width: 480px;
   min-width: 320px;
+  transition-delay: 0.4s;
+}
+
+/* No delay when opening */
+.nav-black.visible {
+  transition-delay: 0s;
 }
 
 .nav-red {
   background-color: rgba(229, 9, 29);
   width: 95%;
+  transition-delay: 0.2s;
+}
+
+/* Slight delay on open */
+.nav-red.visible {
+  transition-delay: 0.2s;
 }
 
 .nav-white {
@@ -66,6 +78,11 @@ body {
   width: 95%;
   padding: 40px;
   position: relative;
+  transition-delay: 0s;
+}
+
+.nav-white.visible {
+  transition-delay: 0.4s;
 }
 
 .close-btn {
